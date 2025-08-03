@@ -1,4 +1,0 @@
-@echo off
-set BOT_TOKEN=7675978283:AAFjphYQTR4orJa42-UmxwTz2oDL5TTWx3U
-python main.py
-pause
