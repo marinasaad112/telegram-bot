@@ -1,3 +1,2 @@
 aiogram==2.25.2
-pandas
-openpyxl
+aiohttp==3.8.6
