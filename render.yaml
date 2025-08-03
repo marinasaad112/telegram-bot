@@ -1,10 +1,10 @@
 services:
   - type: web
-    name: ride-bot
-    env: python
-    plan: free
-    buildCommand: ""
+    name: telegram-bot
+    runtime: python
+    pythonVersion: 3.10
+    buildCommand: pip install -r requirements.txt
     startCommand: python main.py
     envVars:
       - key: BOT_TOKEN
-        value: 7675978283:AAFjphYQTR4orJa42-UmxwTz2oDL5TTWx3U
+        sync: false
